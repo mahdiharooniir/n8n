@@ -44,6 +44,10 @@ export class NodeDisplayViewPage extends BasePage {
 		return this.page.getByTestId('output-panel');
 	}
 
+	getInputPanel() {
+		return this.page.getByTestId('ndv-input-panel');
+	}
+
 	getParameterExpressionPreviewValue() {
 		return this.page.getByTestId('parameter-expression-preview-value');
 	}
